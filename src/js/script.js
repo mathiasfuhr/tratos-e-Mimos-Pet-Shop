@@ -1,5 +1,5 @@
 function redirectToWhatsApp() {
-    let empresa = "PetCare";
+    let empresa = "Tratos e Mimos Pet Shop";
     let mensagem = "Olá, gostaria de mais informações sobre seus produtos/serviços.";
     let encodedEmpresa = encodeURIComponent(empresa);
     let encodedMensagem = encodeURIComponent(mensagem);
