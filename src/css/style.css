@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #efc24f;
+    overflow: hidden;
+}
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 88px;
+    margin-top: 100px
+}
+.main-content {
+    position: relative;
+    z-index: 1;
+  }
+
+main .main-content h1 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 88px;
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+main  span{
+    color: #7EB5E1;;
+}
+
+main .main-content p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 40px 0;
+}
+
+main .main-content button {
+    width: 291px;
+    height: 66px;
+
+    background: #7EB5E1;
+    border-radius: 40px;
+    border: none;
+
+    color: #fff;
+}
+
+main .main-content button:hover{
+    background: #5B9BD5;
+}
+
+.main-img {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .additional-img {
+    position: absolute;
+    top: 190px;
+    right: 250px;
+    transform: translate(50%, -50%);
+    z-index: 0; /* Define uma ordem de empilhamento menor que a imagem principal */
+  }
+
+  
